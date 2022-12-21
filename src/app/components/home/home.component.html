@@ -1,0 +1,4 @@
+<app-news-letter
+  [user$]="userService.user$"
+  (subscribe)="subscribe($event)"></app-news-letter>
+<button (click)="changeUserName()">Change User Name</button>
